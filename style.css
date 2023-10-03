@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .hero-section{
+    margin-left: 40px;
+    width: 100%;
+    display: flex;
+  }
+  #hero{
+    justify-content: center;
+    display: flex;
+  }
+  #love{
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 80px;
+  }
+  .course{
+    margin-left: 40px;
+  }
+  .companies{
+    margin-left: 40px;
+  }
+  .success-stories{
+    margin-left: 40px;
+  }
+  /* @media screen and (max-width: 1000) {
+    .hero-section{
+        width: 100px;
+        height: 100px;
+    }
+  } */
+  @media screen and (max-width: 760){
+    .hero-section{
+        width: 1000px;
+        height: 300px;
+    }
+  }
